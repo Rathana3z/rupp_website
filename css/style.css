@@ -1,0 +1,53 @@
+li{
+    font-size: small;
+}
+.khmer{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Englis{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dotted-underline {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 4px;
+    padding: 2px 4px;
+    display: inline-block;
+}
+.center-text {
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar.bg-danger {
+    background-color: #dc3545; /* Bootstrap "danger" red color */
+    width: 100%; /* Ensure it spans full width */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around; /* Optional: space out items evenly */
+}
+
+.nav-link {
+    text-align: center;
+    color: white; /* Ensure text color is readable */
+}
+#navigation{
+    height: 60px;
+    width: 960px;
+    background: #831717;
+    text-align: center;
+    margin: 0;
+}
+a{
+    color: red;
+    font-size: smaller;
+    text-decoration: none;
+}
+.small-font{
+    font-size: 10px;
+}
